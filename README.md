@@ -27,37 +27,36 @@ O objetivo principal deste projeto é aprender e aplicar conceitos de **streams*
 ---
 
 ## Configuração e Instalação
-Observação: estou usando npm como exemplo, mais sinta-se a vontade para usar qualquer um outro gerenciador.
+  Observação: estou usando npm como exemplo, mais sinta-se a vontade para usar qualquer um outro gerenciador.
 
-1. **Clone o Repositório**:
-
-   * git clone 
-   
-   * cd conversor-csv-json
-   
-3. **Instale as Dependências**:
-
-  Certifique-se de ter o Node.js instalado.
+  1. **Clone o Repositório**:
   
-  * npm install
-
-3. **Prepare o Ambiente**:
+     * git clone 
+     
+     * cd conversor-csv-json
+     
+  2. **Instale as Dependências**:
+  
+  Certifique-se de ter o Node.js instalado.
+    
+    npm install
+  
+  3. **Prepare o Ambiente**:
 
   * Coloque o arquivo **input.csv** com os dados que deseja converter na mesma pasta do código.
     
   * Defina o nome do arquivo de saída JSON no código ou utilize o nome padrão **output.json**.
 
-
 ## Como Usar
 
-1. **Execute o Conversor**:
-   
-  * node index.js
-   
-2. **Resultado**:
-   
+  1. **Execute o Conversor**:
+  
+    node ./src/app.js
+     
+  3. **Resultado**:
+     
   * O arquivo **output.json** será gerado na pasta do projeto com os dados convertidos.
-    
+      
   * No console, uma mensagem confirmará o sucesso da conversão e mostrará os dados convertidos.
 
 ## Explicação do Código
