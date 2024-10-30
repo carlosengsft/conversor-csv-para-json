@@ -31,7 +31,7 @@ Observação: estou usando npm como exemplo, mais sinta-se a vontade para usar q
 
 1. **Clone o Repositório**:
 
-   * git clone https://github.com/usuario/conversor-csv-json.git
+   * git clone 
    
    * cd conversor-csv-json
    
@@ -39,9 +39,7 @@ Observação: estou usando npm como exemplo, mais sinta-se a vontade para usar q
 
   Certifique-se de ter o Node.js instalado.
   
-  * Instale o csv-parser
-  
-  * npm install csv-parser
+  * npm install
 
 3. **Prepare o Ambiente**:
 
